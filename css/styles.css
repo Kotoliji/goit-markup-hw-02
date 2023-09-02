@@ -1,0 +1,9 @@
+.link{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
