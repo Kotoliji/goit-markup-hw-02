@@ -74,7 +74,7 @@ text-align: left;
 .address_link{
 color: #434455;
 }
-.address_list:hover, :focus{
+.address_list :hover , :focus{
     color:#404bbf ;
 }
 .name_and_button{
@@ -97,7 +97,7 @@ text-align: center;
     text-align: left; 
     cursor: pointer;
 }
-.button:hover, :focus{
+.button :hover , :focus{
     color: #404BBF;
 }
 .information_list_header{
