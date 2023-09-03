@@ -98,7 +98,7 @@ text-align: center;
     cursor: pointer;
 }
 .button :hover , :focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .information_list_header{
     color: var(--backcolor-blak);
