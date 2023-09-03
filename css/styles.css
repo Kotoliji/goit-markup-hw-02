@@ -7,3 +7,135 @@ ul,ol{
 button{
     cursor: pointer;
 }
+:root{
+    --backcolor-blak: #2E2F42;
+    --backcolor-model:#F4F4FD;
+    --bais-white-color: #ffff;
+}
+body{
+    font-family: 'Roboto','Raleway',sans-serif;
+    color:#434455;
+    background-color:var(--bais-white-color);
+}
+.header{
+    border-bottom: 1px, solid;
+    background-color:#E7E9FC;
+}
+.logo_link{
+    font-family: Raleway;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4D5AE5;
+}
+.nav_list{
+    color: var(--backcolor-model);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.address_list{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+font-style: normal;
+}
+.name_and_button{
+    background-color: var(--backcolor-blak);
+}
+.name_syte{
+    color: var(--bais-white-color);
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.button{
+    background-color: #4D5AE5;
+    color: var(--bais-white-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left; 
+}
+.information_list_header{
+    color: var(--backcolor-blak);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.information_list_text{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.team_section{
+    background-color: var(--backcolor-model);
+}
+.our_team_header{
+    color: var(--backcolor-blak);
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.our_team_list{
+    background-color: var(--bais-white-color);
+}
+.our_team_pirson{
+    color: var(--backcolor-blak);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.our_team_text{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.portfolio_header{
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.portfolio_first_row{
+    background-color:#E7E9FC ;
+}
+.portfolio_row{
+    background-color: #ffff;
+}
+.header_portfolio{
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.text_portfolio{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+.futer_section{
+    background-color: var(--backcolor-blak);
+}
+.final_information{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+color:var(--backcolor-model);
+}
