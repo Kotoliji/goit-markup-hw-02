@@ -32,7 +32,7 @@ body{
     text-align: left;
     color: #4D5AE5;
 }
-.logo_link_second{
+.logo_link_up{
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
@@ -40,10 +40,18 @@ letter-spacing: 0.03em;
 text-align: left;
 color: var(--backcolor-blak);
 }
+.logo_link_down{
+    font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+    color: var(--backcolor-model);
+}
 .nav_link{
   color:var(--backcolor-blak);
 }
-.nav_link:hover :focus{
+.nav_link:hover, :focus{
    color: #404bbf;
 }
 .nav_list{
@@ -54,17 +62,19 @@ color: var(--backcolor-blak);
     letter-spacing: 0.02em;
     text-align: left;
 }
+.address{
+    font-style: normal;
+}
 .address_list{
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
-font-style: normal;
 }
 .address_link{
 color: #434455;
 }
-.address_list:hover :focus{
+.address_list:hover, :focus{
     color:#404bbf ;
 }
 .name_and_button{
@@ -87,7 +97,7 @@ text-align: center;
     text-align: left; 
     cursor: pointer;
 }
-.button:hover :focus{
+.button:hover, :focus{
     color: #404BBF;
 }
 .information_list_header{
@@ -151,6 +161,7 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
+color: var(--backcolor-blak);
 }
 .text_portfolio{
 font-size: 16px;
