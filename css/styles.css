@@ -97,7 +97,7 @@ text-align: center;
     text-align: left; 
     cursor: pointer;
 }
-.button :hover , :focus{
+.button:hover, :focus{
     background-color: #404BBF;
 }
 .information_list_header{
