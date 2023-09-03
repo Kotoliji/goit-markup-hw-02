@@ -13,7 +13,7 @@ button{
     --bais-white-color: #ffff;
 }
 body{
-    font-family: 'Roboto','Raleway',sans-serif;
+    font-family: 'Roboto',sans-serif;
     color:#434455;
     background-color:var(--bais-white-color);
 }
@@ -22,12 +22,29 @@ body{
     background-color:#E7E9FC;
 }
 .logo_link{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    font-weight: 700;
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-align: left;
     color: #4D5AE5;
+}
+.logo_link_second{
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--backcolor-blak);
+}
+.nav_link{
+  color:var(--backcolor-blak);
+}
+.nav_link:hover :focus{
+   color: #404bbf;
 }
 .nav_list{
     color: var(--backcolor-model);
@@ -44,13 +61,19 @@ letter-spacing: 0.02em;
 text-align: left;
 font-style: normal;
 }
+.address_link{
+color: #434455;
+}
+.address_list:hover :focus{
+    color:#404bbf ;
+}
 .name_and_button{
     background-color: var(--backcolor-blak);
 }
 .name_syte{
     color: var(--bais-white-color);
 font-size: 56px;
-line-height: 60px;
+line-height: 1.07 ;
 letter-spacing: 0.02em;
 text-align: center;
 }
@@ -63,6 +86,9 @@ text-align: center;
     letter-spacing: 0.04em;
     text-align: left; 
     cursor: pointer;
+}
+.button:hover :focus{
+    color: #404BBF;
 }
 .information_list_header{
     color: var(--backcolor-blak);
@@ -84,9 +110,10 @@ text-align: left;
 .our_team_header{
     color: var(--backcolor-blak);
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize
 }
 .our_team_list{
     background-color: var(--bais-white-color);
@@ -107,9 +134,10 @@ text-align: center;
 }
 .portfolio_header{
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 }
 .portfolio_first_row{
     background-color:#E7E9FC ;
