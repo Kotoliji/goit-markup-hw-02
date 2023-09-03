@@ -31,3 +31,151 @@ body{
     text-align: left;
     color: #4D5AE5;
 }
+
+.logo_link_up{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--backcolor-blak);
+    }
+    .logo_link_down{
+        font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+        color: var(--backcolor-model);
+    }
+    .nav_link{
+      color:var(--backcolor-blak);
+    }
+    .nav_link:hover, :focus{
+       color: #404bbf;
+    }
+    .nav_list{
+        color: var(--backcolor-model);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    .address{
+        font-style: normal;
+    }
+    .address_list{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+    .address_link{
+    color: #434455;
+    }
+    .address_list :hover , :focus{
+        color:#404bbf ;
+    }
+    .name_and_button{
+        background-color: var(--backcolor-blak);
+    }
+    .name_syte{
+        color: var(--bais-white-color);
+    font-size: 56px;
+    line-height: 1.07 ;
+    letter-spacing: 0.02em;
+    text-align: center;
+    }
+    .button{
+        background-color: #4D5AE5;
+        color: var(--bais-white-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        text-align: left; 
+        cursor: pointer;
+    }
+    .button:hover, :focus{
+        background-color: #404BBF;
+    }
+    .information_list_header{
+        color: var(--backcolor-blak);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+    .information_list_text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+    .team_section{
+        background-color: var(--backcolor-model);
+    }
+    .our_team_header{
+        color: var(--backcolor-blak);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize
+    }
+    .our_team_list{
+        background-color: var(--bais-white-color);
+    }
+    .our_team_pirson{
+        color: var(--backcolor-blak);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    }
+    .our_team_text{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    }
+    .portfolio_header{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    }
+    .portfolio_first_row{
+        background-color:#E7E9FC ;
+    }
+    .portfolio_row{
+        background-color: #ffff;
+    }
+    .header_portfolio{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--backcolor-blak);
+    }
+    .text_portfolio{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
+    .futer_section{
+        background-color: var(--backcolor-blak);
+    }
+    .final_information{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:var(--backcolor-model);
+    }
