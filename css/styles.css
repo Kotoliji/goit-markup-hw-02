@@ -62,6 +62,7 @@ text-align: center;
     line-height: 24px;
     letter-spacing: 0.04em;
     text-align: left; 
+    cursor: pointer;
 }
 .information_list_header{
     color: var(--backcolor-blak);
@@ -139,3 +140,4 @@ letter-spacing: 0.02em;
 text-align: left;
 color:var(--backcolor-model);
 }
+
